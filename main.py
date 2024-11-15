@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from speak import speak
+from Modelling.speak import speak
 from dotenv import load_dotenv
 from os import getenv
 
@@ -32,4 +32,4 @@ while True:
         break
     assistant_response = get_response(user_input+" (You are a assistant at random airport, give arbitrary Answers like you know everything but Give a very concise,formal,and informative response as an airport assistant would)")
     print(f"Assistant: {assistant_response}")
-    speak(assistant_response) # Uncomment this line to enable text-to-speech
+    speak(assistant_response) 
