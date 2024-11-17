@@ -20,7 +20,7 @@ This project aims to improve airport accessibility for sign language users by pr
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/ahmed00faraz/Multilingual-Sign-Language-AI-assistant.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up your Gemini API key in a `.env` file.
 
